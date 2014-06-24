@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brewzon</string>
+    <string name="action_settings">Settings</string>
+
+    <!--  -->
+    <string name="alert_title">Alert</string>
+    <string name="choose_option">Please choose an option.</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="cancel">Cancel</string>
+
+    <!--  -->
+    <string name="facebook_app_id">251585721694155</string>
+
+    <!--  -->
+    <string name="loading_title">Please Wait !</string>
+    <string name="loading_msg">Loading....</string>
+    <string name="content_description"></string>
+
+    <!--  -->
+    <string name="email">Email</string>
+    <string name="hint_univ_id">Enter University Id</string>
+    <string name="hint_prof_id">Enter Work Id</string>
+    <string name="password">Password</string>
+    <string name="confiirm_password">Confirm Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="start_year">Start Year</string>
+    <string name="end_year">End Year</string>
+    <string name="city_country">City, Country</string>
+    <string name="hint_ver_code">Enter verification code</string>
+
+    <!--  -->
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="login_with_google">Sign in with Google</string>
+    <string name="login_with">Login with</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="submit">Submit</string>
+    <string name="link_to">Link to</string>
+    <string name="linked">Linked</string>
+    <string name="friends_on_brewzon">Friends on BREWZON</string>
+
+    <!-- login confirmation message -->
+    <string name="hi">Hi</string>
+    <string name="thank_with_brewzon">,\n\nThank you for registering with BREWZON.\n\nYou will soon receive an email confirmation message at</string>
+    <string name="active_your_account">with a link to activate your user account.</string>
+    <string name="ver_code">\n\nThis application is in testing mode.\nVerification code is</string>
+
+    <!-- headers -->
+    <string name="header_facebook">FACEBOOK</string>
+    <string name="header_google_plus">GOOGLE PLUS</string>
+    <string name="header_brewzon">BREWZON</string>
+    <string name="header_facebook_login">Facebook Login</string>
+    <string name="header_google_plus_login">Google+ Login</string>
+    <string name="header_university_login">University Login</string>
+    <string name="header_university_signup">University Signup</string>
+    <string name="header_professional_login">Professional Login</string>
+    <string name="header_professional_signup">Professional Signup</string>
+    <string name="header_brewzon_login">Brewzon Login</string>
+    <string name="header_brewzon_signup">Brewzon Signup</string>
+
+    <!-- validations -->
+    <string name="v_email_empty">Email can not be empty.</string>
+    <string name="v_email_invalid">Please enter valid email.</string>
+    <string name="v_password_empty">Password can not be empty.</string>
+    <string name="v_confirm_password_empty">Confirm password can not be empty.</string>
+    <string name="v_password_not_same">Please enter same passwords.</string>
+    <string name="v_first_name_empty">First name can not be empty.</string>
+    <string name="v_last_name_empty">Last name can not be empty.</string>
+    <string name="v_city_country_empty">City, Country name can not be empty.</string>
+    <string name="v_invalid_year">End year can not be less than start year.</string>
+    <string name="v_less_curr_year">Start year or end year can not be greater than current year.</string>
+    <string name="v_sdcard">Please insert SD Card.</string>
+    <string name="v_camera">Camera is not available</string>
+    <string name="v_image_size">Image File not found in your phone. Please select another image.</string>
+    <string name="v_internet_connection">Please check internet connection.</string>
+
+</resources>

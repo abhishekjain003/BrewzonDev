@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/logo" />
+
+        <!-- ***************** -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_fblogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/content_description"
+                android:src="@drawable/btn_fb" />
+
+            <ImageButton
+                android:id="@+id/btn_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/content_description"
+                android:src="@drawable/btn_google_plus" />
+        </LinearLayout>
+
+        <!-- ***************** -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_sign_in_university"
+                style="@style/login_button"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="15dp"
+                android:drawableRight="@drawable/icon_1"
+                android:paddingRight="6dp"
+                android:text="@string/login_with" />
+
+            <Button
+                android:id="@+id/btn_sign_in_professional"
+                style="@style/login_button"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="15dp"
+                android:drawableRight="@drawable/icon_2"
+                android:paddingRight="6dp"
+                android:text="@string/login_with" />
+
+            <Button
+                android:id="@+id/btn_sign_up_brewzon"
+                style="@style/login_button"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btn_sign_in_university"
+                android:drawableRight="@drawable/icon_3"
+                android:paddingRight="6dp"
+                android:text="@string/sign_up" />
+
+            <Button
+                android:id="@+id/btn_login_brewzon"
+                style="@style/login_button"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/btn_sign_in_professional"
+                android:drawableRight="@drawable/icon_3"
+                android:paddingRight="6dp"
+                android:text="@string/login_with" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- ***************** -->
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/footer_1" />
+
+</RelativeLayout>
